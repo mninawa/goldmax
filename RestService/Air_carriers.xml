@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<status>RESULT_STATUS_COMPLETE</status>
+	<carriers>
+		<carrier>
+			<id>-32480</id>
+			<name>British Airways</name>
+			<iata>BA</iata>
+		</carrier>
+		<carrier>
+			<id>-32090</id>
+			<name>Lufthansa</name>
+			<iata>LH</iata>
+		</carrier>
+		<carrier>
+			<id>-31915</id>
+			<name>Ryanair</name>
+			<iata>FR</iata>
+		</carrier>
+	</carriers>
+</data>

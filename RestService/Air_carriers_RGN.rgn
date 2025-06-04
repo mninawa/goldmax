@@ -1,0 +1,40 @@
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<rng:grammar xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<rng:start combine="choice">
+		<rng:ref name="data"/>
+	</rng:start>
+	<rng:define name="data">
+		<rng:element name="data">
+
+
+			<rng:element name="status">
+				<rng:data type="string"/>
+			</rng:element>
+			<rng:element name="carriers">
+
+
+				<rng:oneOrMore>
+					<rng:element name="carrier">
+
+
+						<rng:element name="id">
+							<rng:data type="short"/>
+						</rng:element>
+						<rng:element name="name">
+							<rng:data type="string"/>
+						</rng:element>
+						<rng:element name="iata">
+							<rng:data type="string"/>
+						</rng:element>
+
+
+					</rng:element>
+				</rng:oneOrMore>
+
+
+			</rng:element>
+
+
+		</rng:element>
+	</rng:define>
+</rng:grammar>
